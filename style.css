@@ -1,0 +1,48 @@
+/* .image{
+    width: 300px;
+    height: 300px;
+}
+div{
+    width: 300px;
+    height: 100px;
+    border: 1px solid ;
+    display: inline-block;
+} */
+
+.big{
+    width: 250px;
+    height: 250px;
+}
+.size{
+    width: 250px;
+    height: 250px;
+    /* display: flex !important;
+    flex-direction: row !important;
+   justify-content: space-around !important; */
+
+   
+
+}
+
+#main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+#m1,#m2,#m3,#m4{
+ display: flex;
+ width: 300px;
+ height: 350px;
+ border:  2px solid blue;
+  justify-content: center;
+  align-items: center;
+
+}   
+@media screen and (max-width: 600px){
+#m1,#m2,#m3,#m4{
+    width: 100% ;
+} 
+}
